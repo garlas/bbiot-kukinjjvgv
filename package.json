@@ -1,0 +1,33 @@
+{
+  "name": "baileys-whatsapp-task-reminder",
+  "version": "1.0.0",
+  "description": "Aplikasi pengingat tugas menggunakan Baileys dan MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1",
+    "pino": "^8.17.0",
+    "pino-pretty": "^10.3.0",
+    "qrcode": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "keywords": [
+    "baileys",
+    "whatsapp",
+    "task",
+    "reminder",
+    "mongodb",
+    "otp"
+  ],
+  "author": "Garin & Team",
+  "license": "MIT"
+}
