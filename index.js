@@ -64,7 +64,7 @@ async function startSocket() {
 
   sock = makeWASocket({
     auth: state,
-    printQRInTerminal: false,
+    printQRInTerminal: true,
   });
 
   sock.ev.on("creds.update", saveCreds);
