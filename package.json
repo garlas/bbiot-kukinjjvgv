@@ -16,7 +16,8 @@
     "mongoose": "^7.6.1",
     "pino": "^8.17.0",
     "pino-pretty": "^10.3.0",
-    "qrcode": "^1.5.1"
+    "qrcode": "^1.5.1",
+    "qrcode-terminal": "^0.12.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
